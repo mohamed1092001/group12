@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع البيان</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <!-- fonts -->
+    <link rel="stylesheet" href="libs/font.css">
+
+    <!-- tap icon -->
+    <link rel="icon" href="img/logo.png">
+
+</head>
+
+<body>
+    <div class="loading">
+        <div class="big circle">
+        </div>
+        <div class="small circle">
+        </div>
+    </div>
+    <!-- start header "contain upper and lower nav" -->
+    <header>
+        <!-- start upper nav -->
+        <nav class="fixed-padding">
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+
+            <!-- search-box -->
+            <form class="search-box">
+                <input type="text" class="search-field" placeholder="اابحث فى المدونة . . .">
+
+                <button type="submit">
+                    <i class="fas fa-search" style="padding: 0px"></i>
+                </button>
+            </form>
+            <div class="nav-btn-container">
+                <!-- mobile search button -->
+                <button class="mobile-search-btn" type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+                <!-- whatsapp contact icon -->
+                <a href="application.html" class="whatapp-icon">
+                    <img src="img/whatsapp.png" alt="">
+                </a>
+                <!-- ask service btn -->
+                <a href="application.html" class="ask-btn">اطلب الخدمه</a>
+            </div>
+        </nav>
+        <!-- start lower nav -->
+        <div class="lower-nav fixed-padding">
+            <!-- navigation main taps -->
+            <ul class="taps">
+                <li class="main-tap ">
+                    <a href="index.html" class="active">
+                        الرئيسية
+                    </a>
+                </li>
+
+
+                <li class="drop-container main-tap">
+                    <a href="about.html">
+                        عن المؤسسة
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div class="drop-list who-list">
+                        <a href="about.html" class="list-item">
+                            من نحن
+                        </a>
+                        <a href="warranties.html" class="list-item">
+                            الضمانات
+                        </a>
+                        <a href="privacy-policy.html" class="list-item">
+                            سياسة الخصوصية
+                        </a>
+
+                        <a href="questions.html" class="list-item">
+                            الأسئلة الشائعة
+                        </a>
+
+                    </div>
+                </li>
+                <li href="application.html" class="main-tap drop-container">
+                    <a href="services.html">
+                        خدماتنا
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <!-- nav services list -->
+                    <div class="drop-list services-list">
+                        <!-- nav services list items-->
+                        <a href="application.html" class="list-item">
+                            الترجمة الأكاديمية
+                        </a>
+                        <a href="application.html" class="list-item">
+                            تعديل الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="list-item">
+                            إعداد وتقديم الشروحات
+                        </a>
+                        <a href="application.html" class="list-item">
+                            تنسيق أبحاث النشر
+                        </a>
+                        <a href="application.html" class="list-item">
+                            مناقشة وتفسير النتائج
+                        </a>
+                        <a href="application.html" class="list-item">
+                            اقتراح العناوين
+                        </a>
+                        <a href="application.html" class="list-item">
+                            كتابة خطة البحث
+                        </a>
+                        <a href="application.html" class="list-item">
+                            تفريغ المحتوى الكتابي
+                        </a>
+                        <a href="application.html" class="list-item">
+                            تنسيق الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="list-item">
+                            توفير المراجع
+                        </a>
+                        <a href="application.html" class="list-item">
+                            أبحاث النشر والترقية
+                        </a>
+                        <a href="application.html" class="list-item">
+                            نقد الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="list-item">
+                            توثيق المراجع
+                        </a>
+                        <a href="application.html" class="list-item">
+                            إعداد الإطار النظري
+                        </a>
+                        <a href="application.html" class="list-item">
+                            تصميم أدوات الدراسة
+                        </a>
+                        <a href="application.html" class="list-item">
+                            التدقيق اللغوي
+                        </a>
+                        <a href="application.html" class="list-item">
+                            إعداد ملخص الدراسة
+                        </a>
+                        <a href="application.html" class="list-item">
+                            كتابة خاتمة البحث
+                        </a>
+                        <a href="application.html" class="list-item">
+                            إعداد العروض التقديمية
+                        </a>
+                    </div>
+                </li>
+                <li class="main-tap">
+                    <a href="blog.html">المدونة</a>
+                </li>
+
+                <li class="main-tap">
+                    <a href="infographic.html">انفوجرافيك علمي</a>
+                </li>
+                <li class="main-tap">
+                    <a href="application.html">طلب الخدمة</a>
+                </li>
+            </ul>
+
+            <!-- navigation social media links -->
+
+            <div class="social-media">
+                <a href="application.html">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fab fa-snapchat"></i>
+                </a>
+            </div>
+        </div>
+        <!-- alternative nav -->
+        <div class="alternative-nav fixed-padding">
+            <div class="menu">
+                <button class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- navigation main taps -->
+                <ul class="taps">
+                    <li class="main-tap">
+                        <a href="index.html">
+                            الرئيسية
+                        </a>
+                    </li>
+
+                    <li class="drop-container main-tap">
+                        <a href="about.html">
+                            من نحن
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="warranties.html" class="list-item">
+                            الضمانات
+                        </a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy.html" class="list-item">
+                            سياسة الخصوصية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="questions.html" class="list-item">
+                            الأسئلة الشائعة
+                        </a>
+                    </li>
+                    <li>
+
+                    </li>
+                    <li class="main-tap drop-container">
+                        <a href="services.html">
+                            خدماتنا
+                        </a>
+                    </li>
+                    <li class="main-tap">
+                        <a href="blog.html">المدونة</a>
+                    </li>
+
+                    <li class="main-tap">
+                        <a href="infographic.html">انفوجرافيك علمي</a>
+                    </li>
+                    <li class="main-tap">
+                        <a href="application.html">طلب الخدمة</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- navigation social media links -->
+
+            <div class="social-media">
+                <a href="application.html">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="application.html">
+                    <i class="fab fa-snapchat"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- end haeder -->
+
+    <!-- start main -->
+
+    <main>
+        <!-- slider -->
+        <div class="slider">
+            <!-- slide for loop -->
+            <!-- ** note ** -->
+            <!-- attribute bg carry the background of the slide -->
+            <div class="slide" bg="img/banner1.jpg">
+                <div class="banner">
+                    <!-- slide title -->
+                    <p class="banner-title h1">
+                        التحليل و مناقشة النتائج
+                    </p>
+                    <!-- line 1 -->
+                    <p class="description normal-text">
+                        تحليل البيانات للحصول على المعلومات و عرضها و مناقشتها
+                    </p>
+                    <!-- line 2 -->
+                    <p class="description normal-text">
+                        تحليل حقيقى خال من الأخطاء
+                    </p>
+                    <a href="application.html" class="btn">
+                        اطلب الخدمة
+                    </a>
+                </div>
+            </div>
+            <div class="slide" bg="img/banner1.jpg">
+                <div class="banner">
+                    <!-- slide title -->
+                    <p class="banner-title h1">
+                        التحليل و مناقشة النتائج
+                    </p>
+                    <!-- line 1 -->
+                    <p class="description normal-text">
+                        تحليل البيانات للحصول على المعلومات و عرضها و مناقشتها
+                    </p>
+                    <!-- line 2 -->
+                    <p class="description normal-text">
+                        تحليل حقيقى خال من الأخطاء
+                    </p>
+                    <a href="application.html" class="btn">
+                        اطلب الخدمة
+                    </a>
+                </div>
+            </div>
+            <div class="slide" bg="img/banner1.jpg">
+                <div class="banner">
+                    <!-- slide title -->
+                    <p class="banner-title h1">
+                        التحليل و مناقشة النتائج
+                    </p>
+                    <!-- line 1 -->
+                    <p class="description normal-text">
+                        تحليل البيانات للحصول على المعلومات و عرضها و مناقشتها
+                    </p>
+                    <!-- line 2 -->
+                    <p class="description normal-text">
+                        تحليل حقيقى خال من الأخطاء
+                    </p>
+                    <a href="application.html" class="btn">
+                        اطلب الخدمة
+                    </a>
+                </div>
+            </div>
+            <div class="slide" bg="img/banner1.jpg">
+                <div class="banner">
+                    <!-- slide title -->
+                    <p class="banner-title h1">
+                        التحليل و مناقشة النتائج
+                    </p>
+                    <!-- line 1 -->
+                    <p class="description normal-text">
+                        تحليل البيانات للحصول على المعلومات و عرضها و مناقشتها
+                    </p>
+                    <!-- line 2 -->
+                    <p class="description normal-text">
+                        تحليل حقيقى خال من الأخطاء
+                    </p>
+                    <a href="application.html" class="btn">
+                        اطلب الخدمة
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="next chevron">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        <button class="prev chevron">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+    </main>
+
+    <!-- about section -->
+
+    <section class="about flex fixed-padding">
+        <div class="about-desciption-box">
+            <h2 class="title">
+                مؤسسة البيان للخدمات الأكاديمية
+            </h2>
+            <p class="about-desciption normal-text">
+                مؤسسة البيان للاستشارات البحثية هي مؤسسة متخصصة بتقديم خدمات البحث العلمي المتنوعة. حيث أنها تقدم
+                العديد من الخدمات التي
+                تساعد الباحثين وطلاب الدراسات العليا في إنجاز بحوثهم ورسائلهم، وكذلك تعتبر مؤسسة البيان من أهم وأقوى
+                المؤسسات العربية
+                التي اهتمت بتقديم الخدمات الأكاديمية للطلاب والباحثين في مختلف المجالات العلمية والإنسانية فقد دأب
+                القائمين عليها على
+                تطويرها وتحديثها بصورة مستمرة لكي تتمكن من تقديم أفضل مستوى من الخدمات للطلاب والباحثين. وأخذت
+                المؤسسة بالتطور بشكل
+                متسارع عبر الزمن من خلال الخبرات المتراكمة والسعي الجاد للتطوير من قبل القائمين عليها والعاملين فيها
+                حتى أخذت مؤسسة
+                البيان للاستشارات البحثية والأبحاث العلمية الخطوة الكبيرة في الانطلاق في عام 2020م، وذلك لتتمكن من
+                تقديم خدماتها لجميع
+                دول الوطن العربي ولمختلف التخصصات عبر موقعها الإلكتروني على شبة الإنترنت.
+
+            </p>
+            <div class="btn-con flex">
+                <a href="application.html" class="more">اعرف المزيد عنا</a>
+                <a href="application.html" class="contact-btn">تواصل معنا</a>
+            </div>
+        </div>
+        <div class="about-details-box flex">
+
+            <div class="detail flex flex-center ">
+                <img src="img/icon3.png" alt="">
+                <p>
+                    سرعة الأداء
+                </p>
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+            <div class="detail flex flex-center ">
+                <img src="img/icon.png" alt="">
+                <p>
+                    فريق من الخبراء
+                </p>
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+            <div class="detail flex flex-center ">
+                <img src="img/icon2.png" alt="">
+                <p>
+                    تواصل عن قرب
+                </p>
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+            <div class="detail flex flex-center ">
+                <img src="img/icon4.png" alt="">
+                <p>
+                    سهولة التعامل
+                </p>
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- information section -->
+
+    <section class="info flex  fixed-padding">
+        <img src="img/logo.svg" alt="">
+        <div class="container">
+            <div class="taps flex">
+                <button class="active" target-btn="honesty">الأمانةالعلمية</button>
+                <button target-btn="security">حماية الخصوصية</button>
+                <button target-btn="team">فريق العمل</button>
+            </div>
+            <div class="display honesty flex">
+                <div class="img-con flex">
+                    <img src="img/honesty.jpg" alt="honesty">
+                </div>
+                <div class="description">
+                    <div class="title">الأمانة العلمية</div>
+                    <div class="subject">
+                        تنجر المنارة أكثر من ألف مشروع سنوياً، وتكون ضمن تخصصات عديدة منها العلوم الطبية والتربية
+                        وعلم
+                        النفس واللغه العربيه والعلوم الإسلامية والعلوم المالية والإدارية وتكنولوجيا المعلومات. لذلك
+                        في
+                        حال ورود أي طلب خارج عن
+                        مجال عملنا فستقوم بالإعتذار عنه توفيراً لوقتكم.
+                    </div>
+                    <a href="application.html" class="btn">اطلع على خدماتنا</a>
+                </div>
+            </div>
+            <div class="display security flex">
+                <div class="img-con flex">
+                    <img src="img/security.jpg" alt="honesty">
+                </div>
+                <div class="description">
+                    <div class="title">حماية الخصوصية</div>
+                    <div class="subject">
+                        تنجر المنارة أكثر من ألف مشروع سنوياً، وتكون ضمن تخصصات عديدة منها العلوم الطبية والتربية
+                        وعلم
+                        النفس واللغه العربيه والعلوم الإسلامية والعلوم المالية والإدارية وتكنولوجيا المعلومات. لذلك
+                        في
+                        حال ورود أي طلب خارج عن
+                        مجال عملنا فستقوم بالإعتذار عنه توفيراً لوقتكم.
+                    </div>
+                    <a href="application.html" class="btn">اطلع على خدماتنا</a>
+                </div>
+            </div>
+            <div class="display team flex">
+                <div class="img-con flex">
+                    <img src="img/team.jpg" alt="honesty">
+                </div>
+                <div class="description">
+                    <div class="title">فريق العمل</div>
+                    <div class="subject">
+                        تنجر المنارة أكثر من ألف مشروع سنوياً، وتكون ضمن تخصصات عديدة منها العلوم الطبية والتربية
+                        وعلم
+                        النفس واللغه العربيه والعلوم الإسلامية والعلوم المالية والإدارية وتكنولوجيا المعلومات. لذلك
+                        في
+                        حال ورود أي طلب خارج عن
+                        مجال عملنا فستقوم بالإعتذار عنه توفيراً لوقتكم.
+                    </div>
+                    <a href="application.html" class="btn">اطلع على خدماتنا</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- services -->
+
+    <section class="services fixed-padding">
+        <p class="title">خــدمــاتنــا</p>
+        <p class="small-title">نسعد بتقديم العديد من الخدمات المفيده التى تساعد عملائنا فى التطور</p>
+
+        <div class="services-container flex">
+            <!-- services cards "loop this" -->
+            <div class="service flex">
+                <img src="img/card.png" class="card-img">
+                <img src="img/honesty.jpg" class="bg-img">
+                <div class="data">
+                    <p class="service-name">كتابة خطة البحث</p>
+                </div>
+                <div class="layer-details">
+                    <div class="upper">
+
+                        <p class="layer-description">
+                            مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر
+                            المادة
+                            دون التركيز على محتواها.
+                        </p>
+                    </div>
+                    <div class="lower">
+                        <a href="application.html">
+                            اطلب الخدمة
+                        </a>
+                        <a href="services-details.html">
+                            تفاصيل الخدمة
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="application.html" class="services-link-btn">عرض المزيد
+            <i class="fa-solid fa-arrow-left" style="margin-right: 10px;"></i>
+        </a>
+    </section>
+    <!-- start deal -->
+    <section class="deal  flex flex-center">
+        <div class="word flex flex-center">
+            <p class="title">
+                الاتفاق
+            </p>
+            <p class="description">
+                هدفنا هو نيل ثقتكم . كن مطئنا
+            </p>
+        </div>
+        <a href="application.html" class="contact-btn">
+            تواصل معنا الان
+        </a>
+    </section>
+    <!-- work steps -->
+    <section class="steps fixed-padding flex">
+        <img src="img/steps-large.png" class="large">
+        <img src="img/steps-mobile.png" class="small">
+    </section>
+    <!-- experience -->
+    <section class="experience fixed-padding flex flex-center">
+        <div class="definition">
+            <p class="title">سابقة أعمالنا</p>
+            <p class="description">
+                خبرة أكثر من 6 عاما
+            </p>
+        </div>
+        <div class="statistics-container flex">
+            <!-- statistic "edit here" -->
+            <div class="statistic flex flex-center">
+                <img src="img/cup.png">
+                <span></span>
+                <p class="num" end="1">
+                    +1
+                </p>
+                <div class="title">
+                    مراجعة الهوية
+                </div>
+            </div>
+            <div class="statistic flex flex-center">
+                <img src="img/write.png">
+                <span></span>
+                <p class="num research" end="4400">
+                    +0
+                </p>
+                <div class="title">
+                    الاستشارات الأكاديمية
+                </div>
+            </div>
+            <div class="statistic flex flex-center">
+                <img src="img/review.png">
+                <span></span>
+                <p class="num review" end="5500">
+                    +0
+                </p>
+                <div class="title">
+                    عملائنا
+                </div>
+            </div>
+            <div class="statistic flex flex-center">
+                <img src="img/clients.png">
+                <span></span>
+                <p class="num clients" end="200">
+                    +0
+                </p>
+                <div class="title">
+                    مشاريعنـا
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Majors -->
+    <section class="majors fixed-padding">
+        <div class="small-title flex flex-center">
+            المساعده فى <span class="line"></span>
+        </div>
+        <div class="title">
+            جميع التخصصات العلمية
+        </div>
+
+        <!-- major slider buttons -->
+        <button class="major-next flex flex-center">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="major-prev flex flex-center">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+        <!-- majors slider -->
+        <div class="majors-slider">
+            <!-- major card "loop this" -->
+
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+            <div class="major-card">
+                <div class="strech flex flex-center">
+                    <div class="img">
+                        <img src="img/cellular-network.svg" alt="">
+                    </div>
+                    <p class="major-name">
+                        تقنية المعلومات
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- customers rate -->
+    <section class="customers-rate fixed-padding">
+        <div class="small-title flex flex-center">
+            اطلع على <span class="line"></span>
+        </div>
+        <div class="title">
+            بعـــض اراء عملائــنا
+        </div>
+        <div class="rate-container">
+            <!-- rates "loop this" -->
+            <div class="rate-card">
+                <div class="strech">
+                    <div class="img-container flex">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <p class="customer-name">
+                        المبرمج
+                    </p>
+                    <p class="customer-opinion">
+                        لقد كانت تجربة مميزة جداً بالنسبة لي في أني حصلت على نتائج للتحليل الإحصائي لرسالتي البحثية
+                        لدرجة الماجستير عندما تعاملت مع مؤسسة البيان للخدمات الاستشارية البحثية
+                        وأتمنى لهم مزيدا من التميز
+                    </p>
+                </div>
+            </div>
+            <div class="rate-card">
+                <div class="strech">
+                    <div class="img-container flex">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <p class="customer-name">
+                        المبرمج
+                    </p>
+                    <p class="customer-opinion">
+                        لقد كانت تجربة مميزة جداً بالنسبة لي في أني حصلت على نتائج للتحليل الإحصائي لرسالتي البحثية
+                        لدرجة الماجستير عندما تعاملت مع مؤسسة البيان للخدمات الاستشارية البحثية
+                        وأتمنى لهم مزيدا من التميز
+
+                    </p>
+                </div>
+            </div>
+            <div class="rate-card">
+                <div class="strech">
+                    <div class="img-container flex">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <p class="customer-name">
+                        المبرمج
+                    </p>
+                    <p class="customer-opinion">
+                        لقد كانت تجربة مميزة جداً بالنسبة لي في أني حصلت على نتائج للتحليل الإحصائي لرسالتي البحثية
+                        لدرجة الماجستير عندما تعاملت مع مؤسسة البيان للخدمات الاستشارية البحثية
+                        وأتمنى لهم مزيدا من التميز
+
+                    </p>
+                </div>
+            </div>
+            <div class="rate-card">
+                <div class="strech">
+                    <div class="img-container flex">
+                        <img src="img/user.png" alt="">
+                    </div>
+                    <p class="customer-name">
+                        المبرمج
+                    </p>
+                    <p class="customer-opinion">
+                        لقد كانت تجربة مميزة جداً بالنسبة لي في أني حصلت على نتائج للتحليل الإحصائي لرسالتي البحثية
+                        لدرجة الماجستير عندما تعاملت مع مؤسسة البيان للخدمات الاستشارية البحثية
+                        وأتمنى لهم مزيدا من التميز
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offers -->
+    <section class="offers fixed-padding ">
+        <p class="title">
+            أحــدث العــروض
+        </p>
+        <div class="offers-container flex ">
+            <!-- main offer "one" -->
+
+            <div class="main-offer offer flex">
+                <a href="application.html">
+                    <img src="img/offer.png">
+                </a>
+                <div class="situation continuous">
+                    مستمر
+                </div>
+            </div>
+
+            <!-- more offers -->
+            <div class="more-offers flex">
+
+                <!-- small offers "loop this" -->
+
+                <div class="offer flex ">
+                    <a href="application.html">
+                        <img src="img/offer.png">
+                    </a>
+
+                    <!-- offer working or not -->
+
+                    <div class="situation end">
+                        منتهى
+                    </div>
+                </div>
+
+                <div class=" offer flex ">
+                    <a href="application.html">
+                        <img src="img/offer.png">
+                    </a>
+                    <div class="situation continuous">
+                        مستمر
+                    </div>
+                </div>
+                <div class=" offer flex">
+                    <a href="application.html">
+                        <img src="img/offer.png">
+                    </a>
+                    <div class="situation continuous">
+                        مستمر
+                    </div>
+                </div>
+                <div class=" offer flex">
+                    <a href="application.html">
+                        <img src="img/offer.png">
+                    </a>
+                    <div class="situation continuous">
+                        مستمر
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offers-taps flex flex-center">
+            <a href="application.html" class="active">01</a>
+            <a href="application.html">02</a>
+            <a href="application.html">03</a>
+            <a href="application.html">04</a>
+        </div>
+    </section>
+
+
+
+    <!-- blogs -->
+
+    <section class="blogs fixed-padding">
+        <div class="small-title flex flex-center">
+            اطلع على <span class="line"></span>
+        </div>
+        <div class="title">
+            المدونة
+        </div>
+
+        <!-- blog slider buttons -->
+        <button class="blog-next flex flex-center">
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="blog-prev flex flex-center">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
+        <!-- blogs slider -->
+        <div class="blogs-slider">
+            <!-- blog card "loop this" -->
+            <div class="blog-card">
+                <div class="strech flex flex-center">
+                    <a href="application.html" class="img">
+                        <img src="img/blog.png" alt="">
+                    </a>
+                    <!-- blog-name -->
+                    <a href="application.html" class="blog-name">
+                        كلية الدراسات العليا فى الجامعات السعودية
+                    </a>
+                    <!-- date and views -->
+                    <div class="date-views flex">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>
+                                20-20-2000
+                            </span>
+                        </p>
+                        <p class="views">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>200</span>
+                        </p>
+                    </div>
+                    <!-- Categories -->
+                    <div class="categories flex">
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                    </div>
+                    <!-- description -->
+                    <a href="application.html" class="description">
+                        "الإسكندرية" في مصر، فهي مدينة ساحلية على البحر المتوسط وهي ثاني أكبر مدينة في مصر بعد
+                        العاصمة القاهرة. تشتهر الإسكندرية
+                        بتاريخها الغني وثقافتها الفريدة ومناظرها الطبيعية الخلابة
+                    </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="strech flex flex-center">
+                    <a href="application.html" class="img">
+                        <img src="img/blog.png" alt="">
+                    </a>
+                    <!-- blog-name -->
+                    <a href="application.html" class="blog-name">
+                        كلية الدراسات العليا فى الجامعات السعودية
+                    </a>
+                    <!-- date and views -->
+                    <div class="date-views flex">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>
+                                20-20-2000
+                            </span>
+                        </p>
+                        <p class="views">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>200</span>
+                        </p>
+                    </div>
+                    <!-- Categories -->
+                    <div class="categories flex">
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                    </div>
+                    <!-- description -->
+                    <a href="application.html" class="description">
+                        "الإسكندرية" في مصر، فهي مدينة ساحلية على البحر المتوسط وهي ثاني أكبر مدينة في مصر بعد
+                        العاصمة القاهرة. تشتهر الإسكندرية
+                        بتاريخها الغني وثقافتها الفريدة ومناظرها الطبيعية الخلابة
+                    </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="strech flex flex-center">
+                    <a href="application.html" class="img">
+                        <img src="img/blog.png" alt="">
+                    </a>
+                    <!-- blog-name -->
+                    <a href="application.html" class="blog-name">
+                        كلية الدراسات العليا فى الجامعات السعودية
+                    </a>
+                    <!-- date and views -->
+                    <div class="date-views flex">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>
+                                20-20-2000
+                            </span>
+                        </p>
+                        <p class="views">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>200</span>
+                        </p>
+                    </div>
+                    <!-- Categories -->
+                    <div class="categories flex">
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                    </div>
+                    <!-- description -->
+                    <a href="application.html" class="description">
+                        "الإسكندرية" في مصر، فهي مدينة ساحلية على البحر المتوسط وهي ثاني أكبر مدينة في مصر بعد
+                        العاصمة القاهرة. تشتهر الإسكندرية
+                        بتاريخها الغني وثقافتها الفريدة ومناظرها الطبيعية الخلابة
+                    </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="strech flex flex-center">
+                    <a href="application.html" class="img">
+                        <img src="img/blog.png" alt="">
+                    </a>
+                    <!-- blog-name -->
+                    <a href="application.html" class="blog-name">
+                        كلية الدراسات العليا فى الجامعات السعودية
+                    </a>
+                    <!-- date and views -->
+                    <div class="date-views flex">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>
+                                20-20-2000
+                            </span>
+                        </p>
+                        <p class="views">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>200</span>
+                        </p>
+                    </div>
+                    <!-- Categories -->
+                    <div class="categories flex">
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                    </div>
+                    <!-- description -->
+                    <a href="application.html" class="description">
+                        "الإسكندرية" في مصر، فهي مدينة ساحلية على البحر المتوسط وهي ثاني أكبر مدينة في مصر بعد
+                        العاصمة القاهرة. تشتهر الإسكندرية
+                        بتاريخها الغني وثقافتها الفريدة ومناظرها الطبيعية الخلابة
+                    </a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="strech flex flex-center">
+                    <a href="application.html" class="img">
+                        <img src="img/blog.png" alt="">
+                    </a>
+                    <!-- blog-name -->
+                    <a href="application.html" class="blog-name">
+                        كلية الدراسات العليا فى الجامعات السعودية
+                    </a>
+                    <!-- date and views -->
+                    <div class="date-views flex">
+                        <p class="date">
+                            <i class="fa-solid fa-calendar"></i>
+                            <span>
+                                20-20-2000
+                            </span>
+                        </p>
+                        <p class="views">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>200</span>
+                        </p>
+                    </div>
+                    <!-- Categories -->
+                    <div class="categories flex">
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                        <a href="application.html">كليه</a>
+                    </div>
+                    <!-- description -->
+                    <a href="application.html" class="description">
+                        "الإسكندرية" في مصر، فهي مدينة ساحلية على البحر المتوسط وهي ثاني أكبر مدينة في مصر بعد
+                        العاصمة القاهرة. تشتهر الإسكندرية
+                        بتاريخها الغني وثقافتها الفريدة ومناظرها الطبيعية الخلابة
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact-section fixed-padding flex flex-center">
+        <form class="flex">
+            <div class="title">
+                إرسال رسالة
+            </div>
+            <input type="text" placeholder="ما اسمك؟">
+            <input type="email" placeholder="البريد الإلكترونى">
+            <input type="tel" placeholder="رقم الهاتف ">
+            <input type="text" placeholder="الدولة">
+            <select>
+                <option>نوع الخدمه</option>
+                <option> الخدمه</option>
+                <option> الخدمه</option>
+                <option> الخدمه</option>
+                <option> الخدمه</option>
+            </select>
+            <textarea placeholder="رسالتك ... "></textarea>
+            <button type="submit">ارسال الان</button>
+        </form>
+        <img src="img/contact.png">
+
+    </section>
+
+    <!-- contact-info -->
+    <section class="contact-info ">
+        <div>
+            <i class="fa-solid fa-phone"></i>
+            00970597715615
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope"></i>
+            info@albayanres.com
+        </div>
+        <div>
+            <i class="fas fa-map-marker-alt"></i>
+            فلسطين
+        </div>
+    </section>
+    <!-- start footer -->
+    <footer class="fixed-padding">
+        <section class="main-footer">
+            <div class="footer-about">
+                <img src="img/white-logo.svg" alt="">
+                <p>لوريم إيبسوم هو نص شائع يستخدم في تصميم الجرافيك والطباعة والنشر الإلكتروني. وهو عبارة عن مجموعة
+                    من الفقرات والجمل الغير
+                    مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر المادة
+                    دون التركيز على محتواها.
+                </p>
+                <div class="contact-icons flex flex-center">
+                    <a href="application.html">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- footer services -->
+            <div class="footer-services">
+                <p class="title">
+                    خــدمــاتنــا
+                </p>
+                <div class="footer-services-container">
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        الترجمة الأكاديمية
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        تعديل الرسائل العلمية
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        إعداد وتقديم الشروحات
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        تنسيق أبحاث النشر
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        مناقشة وتفسير النتائج
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        اقتراح العناوين
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        كتابة خطة البحث
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        تفريغ المحتوى الكتابي
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        تنسيق الرسائل العلمية
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        توفير المراجع
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        أبحاث النشر والترقية
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        نقد الرسائل العلمية
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        توثيق المراجع
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        إعداد الإطار النظري
+                    </a>
+
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        تصميم أدوات الدراسة
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        التدقيق اللغوي
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        إعداد ملخص الدراسة
+                    </a>
+
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        كتابة خاتمة البحث
+                    </a>
+                    <a href="application.html" class="service">
+                        <i class="fa-solid fa-check"></i>
+                        إعداد العروض التقديمية
+                    </a>
+                </div>
+                <div class="add-email ">
+                    <p class="small-title">القائمة البريدية</p>
+                    <span>أضف بريدك الالكترونى ليصلك كل جديد</span>
+                    <form class="flex">
+                        <input type="email" placeholder="yourEmail@gmail.com">
+                        <button type="submit">إضافة</button>
+                    </form>
+                </div>
+            </div>
+            <div class="twitter">
+                <a class="twitter-timeline" data-height="460" href="https://twitter.com/albayanres">Tweets by</a>
+            </div>
+        </section>
+        <section class="powered">
+            <span>كل الحقوق محفوظة &#169;</span>
+            طور بواسطة مؤسسة البيان
+        </section>
+    </footer>
+
+
+
+    <!-- modals required in all pages -->
+    <div class="shadow fixed-padding">
+        <button class="close">
+            <i class="fas fa-window-close"></i>
+        </button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4f23391fba.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+
+    <script src="js/index.js"></script>
+
+    <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+
+</html>

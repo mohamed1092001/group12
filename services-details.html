@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>موقع البيان</title>
+        <!-- css links -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fixed.css">
+        <!-- fonts -->
+        <link rel="stylesheet" href="libs/font.css">
+
+        <!-- tap icon -->
+        <link rel="icon" href="img/logo.png">
+
+    </head>
+
+    <body>
+        <div class="loading">
+            <div class="big circle">
+            </div>
+            <div class="small circle">
+            </div>
+        </div>
+        <!-- start header "contain upper and lower nav" -->
+        <header>
+            <!-- start upper nav -->
+            <nav class="fixed-padding">
+                <!-- logo -->
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+
+                <!-- search-box -->
+                <form class="search-box">
+                    <input type="text" class="search-field" placeholder="اابحث فى المدونة . . .">
+
+                    <button type="submit">
+                        <i class="fas fa-search" style="padding: 0px"></i>
+                    </button>
+                </form>
+                <div class="nav-btn-container">
+                    <!-- mobile search button -->
+                    <button class="mobile-search-btn" type="button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <!-- whatsapp contact icon -->
+                    <a href="application.html" class="whatapp-icon">
+                        <img src="img/whatsapp.png" alt="">
+                    </a>
+                    <!-- ask service btn -->
+                    <a href="application.html" class="ask-btn">اطلب الخدمه</a>
+                </div>
+            </nav>
+            <!-- start lower nav -->
+            <div class="lower-nav fixed-padding">
+                <!-- navigation main taps -->
+                <ul class="taps">
+                    <li class="main-tap ">
+                        <a href="index.html" class="active">
+                            الرئيسية
+                        </a>
+                    </li>
+
+
+                    <li class="drop-container main-tap">
+                        <a href="about.html">
+                            عن المؤسسة
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <div class="drop-list who-list">
+                            <a href="about.html" class="list-item">
+                                من نحن
+                            </a>
+                            <a href="warranties.html" class="list-item">
+                                الضمانات
+                            </a>
+                            <a href="privacy-policy.html" class="list-item">
+                                سياسة الخصوصية
+                            </a>
+
+                            <a href="questions.html" class="list-item">
+                                الأسئلة الشائعة
+                            </a>
+                        </div>
+                    </li>
+                    <li href="application.html" class="main-tap drop-container">
+                        <a href="services.html">
+                            خدماتنا
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <!-- nav services list -->
+                        <div class="drop-list services-list">
+                            <!-- nav services list items-->
+                            <a href="application.html" class="list-item">
+                                الترجمة الأكاديمية
+                            </a>
+                            <a href="application.html" class="list-item">
+                                تعديل الرسائل العلمية
+                            </a>
+                            <a href="application.html" class="list-item">
+                                إعداد وتقديم الشروحات
+                            </a>
+                            <a href="application.html" class="list-item">
+                                تنسيق أبحاث النشر
+                            </a>
+                            <a href="application.html" class="list-item">
+                                مناقشة وتفسير النتائج
+                            </a>
+                            <a href="application.html" class="list-item">
+                                اقتراح العناوين
+                            </a>
+                            <a href="application.html" class="list-item">
+                                كتابة خطة البحث
+                            </a>
+                            <a href="application.html" class="list-item">
+                                تفريغ المحتوى الكتابي
+                            </a>
+                            <a href="application.html" class="list-item">
+                                تنسيق الرسائل العلمية
+                            </a>
+                            <a href="application.html" class="list-item">
+                                توفير المراجع
+                            </a>
+                            <a href="application.html" class="list-item">
+                                أبحاث النشر والترقية
+                            </a>
+                            <a href="application.html" class="list-item">
+                                نقد الرسائل العلمية
+                            </a>
+                            <a href="application.html" class="list-item">
+                                توثيق المراجع
+                            </a>
+                            <a href="application.html" class="list-item">
+                                إعداد الإطار النظري
+                            </a>
+                            <a href="application.html" class="list-item">
+                                تصميم أدوات الدراسة
+                            </a>
+                            <a href="application.html" class="list-item">
+                                التدقيق اللغوي
+                            </a>
+                            <a href="application.html" class="list-item">
+                                إعداد ملخص الدراسة
+                            </a>
+                            <a href="application.html" class="list-item">
+                                كتابة خاتمة البحث
+                            </a>
+                            <a href="application.html" class="list-item">
+                                إعداد العروض التقديمية
+                            </a>
+                        </div>
+                    </li>
+                    <li class="main-tap">
+                        <a href="blog.html">المدونة</a>
+                    </li>
+
+                    <li class="main-tap">
+                        <a href="infographic.html">انفوجرافيك علمي</a>
+                    </li>
+                    <li class="main-tap">
+                        <a href="application.html">طلب الخدمة</a>
+                    </li>
+                </ul>
+
+                <!-- navigation social media links -->
+
+                <div class="social-media">
+                    <a href="application.html">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- alternative nav -->
+            <div class="alternative-nav fixed-padding">
+                <div class="menu">
+                    <button class="menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <!-- navigation main taps -->
+                    <ul class="taps">
+                        <li class="main-tap">
+                            <a href="index.html">
+                                الرئيسية
+                            </a>
+                        </li>
+
+                        <li class="drop-container main-tap">
+                            <a href="about.html">
+                                من نحن
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="warranties.html" class="list-item">
+                                الضمانات
+                            </a>
+                        </li>
+                        <li>
+                            <a href="privacy-policy.html" class="list-item">
+                                سياسة الخصوصية
+                            </a>
+                        </li>
+                        <li>
+                            <a href="questions.html" class="list-item">
+                                الأسئلة الشائعة
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                        <li class="main-tap drop-container">
+                            <a href="services.html">
+                                خدماتنا
+                            </a>
+                        </li>
+                        <li class="main-tap">
+                            <a href="blog.html">المدونة</a>
+                        </li>
+
+                        <li class="main-tap">
+                            <a href="infographic.html">انفوجرافيك علمي</a>
+                        </li>
+                        <li class="main-tap">
+                            <a href="application.html">طلب الخدمة</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- navigation social media links -->
+
+                <div class="social-media">
+                    <a href="application.html">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="application.html">
+                        <i class="fab fa-snapchat"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- end haeder -->
+
+        <section class="page-head flex fixed-padding">
+            <p class="path">الرئيسية</p> &nbsp; / &nbsp; <p class="path">الخدمات</p> &nbsp;/&nbsp; <p class="page-name">
+                كتابة خطة البحث</p>
+
+        </section>
+
+
+        <!-- services description -->
+        <section class="services-description fixed-padding">
+            <div class="container flex ">
+                <img src="img/detail-img.png" alt="">
+                <div class="servise-info">
+                    <p class="title"> كتابة خطة البحث</p>
+                    <p class="subject">
+                        تعد خطة البحث من العناصر الأساسية التي تتكون منها رسائل الماجستير والدكتوراه. كما تعتبر من
+                        المتطلبات الرئيسية التي تضعها
+                        بعض الجامعات للحصول على القبول للدراسة فيها في مرحلة الدراسات العليا. وتعتبر خطة البحث بمثابة
+                        تصور مصغر لما ستكون عليها
+                        رسالة الماجستير أو الدكتوراه عند انتهائها. ولذلك فإنها تتكون من مجموعة من العناصر المهمة التي
+                        يجب أن يتم كتابتها بإتقان
+                        وبأسلوب أكاديمي وعلمي دقيق.
+                    </p>
+                    <p class="subject">
+                        ولا غنى لأي بحث عن خطة البحث التي تمثل عامود من أعمدته الأساسية. وجودة البحث تعكسها إلى حد كبير
+                        المعلومات المتضمنة في
+                        الخطة.
+                    </p>
+                    <div class="btn-con flex">
+                        <a href="application.html" class="ask">اطلب الخدمة الان</a>
+                        <a href="application.html" class="contact-btn">تواصل معنا</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="properties fixed-padding flex">
+            <!-- property "loop this" -->
+            <div class="properties-container ">
+                <!-- active class to first one -->
+                <p class="property flex active">
+                    كتابة خطة البحث لرسائل الماجستير والدكتوراه
+                    <i class="fa-solid fa-plus"></i>
+                </p>
+                <div class="answer">
+                    <!-- it need to loop too -->
+                    <p>
+                        يقوم فريق عمل البيان ببذل كافة الجهود من أجل بناء العناصر المختلفة لخطة البحث بناءً سليمًا. فيتم
+                        التمهيد في مقدمة الخطة
+                        للدخول في مشكلة البحث ثم يتم العمل على توضيح المشكلة توضيحًا موسعًا. ثم يتم العمل على تحديد
+                        الأسئلة والأهداف والفرضيات
+                        التي تسعى الرسالة إلى الإجابة عليها وتحقيقها. ومن ثم يتم العمل على توضيح أوجه أهمية الرسالة من
+                        النواحي العلمية والعملية.
+                    </p>
+                    <p>
+                        ثم يتم الانتقال إلى المصطلحات والتي يتم تحديدها من خلال الرجوع إلى المصادر والمراجع المرتبطة
+                        وتحديدها بدقة متناهية. بما
+                        يتناسب مع تخصص الباحث وطبيعة الرسالة. كما يتم العمل على تحديد الحدود الخاصة بالدراسة سواءً كانت
+                        موضوعية أو بشرية أو
+                        زمانية أو مكانية. وبعد ذلك يتم العمل على تلخيص أهم وأحدث الدراسات السابقة المرتبطة بالموضوع.
+                        وذلك من خلال البحث الموسع
+                        في قواعد البيانات العربية والأجنبية. حيث يتم التنويع في الدراسات التي يتم استخدامها من أجل زيادة
+                        أهمية الرسالة. وإبراز
+                        مدى الاهتمام بموضوعها. ثم يتم العمل على إعداد منهجية الدراسة والتي تتضمن المنهج المتبع والأدوات
+                        التي سيتم استخدامها في
+                        جمع البيانات والأساليب الإحصائية التي سيتم استخدامها في تحليلها. إضافةً إلى تحديد الإجراءات التي
+                        سيتم اتخاذها في تنفيذ
+                        الرسالة بصورتها النهائية.
+                    </p>
+                </div>
+            </div>
+
+            <div class="properties-container ">
+                <p class="property flex">
+                    كتابة خطة البحث لرسائل الماجستير والدكتوراه
+                    <i class="fa-solid fa-plus"></i>
+                </p>
+                <div class="answer">
+                    <!-- it need to loop too -->
+                    <p>
+                        يقوم فريق عمل البيان ببذل كافة الجهود من أجل بناء العناصر المختلفة لخطة البحث بناءً سليمًا. فيتم
+                        التمهيد في مقدمة الخطة
+                        للدخول في مشكلة البحث ثم يتم العمل على توضيح المشكلة توضيحًا موسعًا. ثم يتم العمل على تحديد
+                        الأسئلة والأهداف والفرضيات
+                        التي تسعى الرسالة إلى الإجابة عليها وتحقيقها. ومن ثم يتم العمل على توضيح أوجه أهمية الرسالة من
+                        النواحي العلمية والعملية.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="features fixed-padding">
+            <p class="title">مميزات خدمة كتابة خطة البحث</p>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                <li>
+                    <i class="fa-solid fa-star"></i>
+                    الدقة والالتزام بالمواعيد
+                </li>
+                
+            </ul>
+        </section>
+
+
+        <!-- more services -->
+
+        <section class="services fixed-padding">
+            <p class="title">خــدمــاتنــا</p>
+            <p class="small-title">نسعد بتقديم العديد من الخدمات المفيده</p>
+            <p class="small-title">التى تساعد عملائنا فى التطور</p>
+
+            <div class="services-container flex">
+                <!-- services cards -->
+
+                <div class="service flex">
+                    <img src="img/card.png" class="card-img">
+                    <img src="img/honesty.jpg" class="bg-img">
+                    <div class="data">
+                        <p class="service-name">كتابة خطة البحث</p>
+                    </div>
+                    <div class="layer-details">
+                        <div class="upper">
+
+                            <p class="layer-description">
+                                مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر
+                                المادة
+                                دون التركيز على محتواها.
+                            </p>
+                        </div>
+                        <div class="lower">
+                            <a href="application.html">
+                                اطلب الخدمة
+                            </a>
+                            <a href="services-details.html">
+                                تفاصيل الخدمة
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service flex">
+                    <img src="img/card.png" class="card-img">
+                    <img src="img/honesty.jpg" class="bg-img">
+                    <div class="data">
+                        <p class="service-name">كتابة خطة البحث</p>
+                    </div>
+                    <div class="layer-details">
+                        <div class="upper">
+
+                            <p class="layer-description">
+                                مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر
+                                المادة
+                                دون التركيز على محتواها.
+                            </p>
+                        </div>
+                        <div class="lower">
+                            <a href="application.html">
+                                اطلب الخدمة
+                            </a>
+                            <a href="services-details.html">
+                                تفاصيل الخدمة
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service flex">
+                    <img src="img/card.png" class="card-img">
+                    <img src="img/honesty.jpg" class="bg-img">
+                    <div class="data">
+                        <p class="service-name">كتابة خطة البحث</p>
+                    </div>
+                    <div class="layer-details">
+                        <div class="upper">
+
+                            <p class="layer-description">
+                                مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر
+                                المادة
+                                دون التركيز على محتواها.
+                            </p>
+                        </div>
+                        <div class="lower">
+                            <a href="application.html">
+                                اطلب الخدمة
+                            </a>
+                            <a href="services-details.html">
+                                تفاصيل الخدمة
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="application.html" class="services-link-btn">عرض المزيد
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+        </section>
+
+
+        <!-- contact section -->
+        <section class="contact-section fixed-padding flex flex-center">
+            <form class="flex">
+                <div class="title">
+                    إرسال رسالة
+                </div>
+                <input type="text" placeholder="ما اسمك؟">
+                <input type="email" placeholder="البريد الإلكترونى">
+                <input type="tel" placeholder="رقم الهاتف ">
+                <input type="text" placeholder="الدولة">
+                <select>
+                    <option>نوع الخدمه</option>
+                    <option> الخدمه</option>
+                    <option> الخدمه</option>
+                    <option> الخدمه</option>
+                    <option> الخدمه</option>
+                </select>
+                <textarea placeholder="رسالتك ... "></textarea>
+                <button type="submit">ارسال الان</button>
+            </form>
+            <img src="img/contact.png">
+
+        </section>
+
+
+        <!-- contact-info -->
+        <section class="contact-info ">
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                00970597715615
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                info@albayanres.com
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                فلسطين
+            </div>
+        </section>
+        <!-- start footer -->
+        <footer class="fixed-padding">
+            <section class="main-footer">
+                <div class="footer-about">
+                    <img src="img/white-logo.svg" alt="">
+                    <p>لوريم إيبسوم هو نص شائع يستخدم في تصميم الجرافيك والطباعة والنشر الإلكتروني. وهو عبارة عن مجموعة
+                        من الفقرات والجمل الغير
+                        مفهومة باللغة اللاتينية، والتي تستخدم لبديل النص الحقيقي حتى يتمكن المصمم من تحديد مظهر المادة
+                        دون التركيز على محتواها.
+                    </p>
+                    <div class="contact-icons flex flex-center">
+                        <a href="application.html">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="application.html">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="application.html">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="application.html">
+                            <i class="fab fa-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- footer services -->
+                <div class="footer-services">
+                    <p class="title">
+                        خــدمــاتنــا
+                    </p>
+                    <div class="footer-services-container">
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            الترجمة الأكاديمية
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            تعديل الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            إعداد وتقديم الشروحات
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            تنسيق أبحاث النشر
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            مناقشة وتفسير النتائج
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            اقتراح العناوين
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            كتابة خطة البحث
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            تفريغ المحتوى الكتابي
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            تنسيق الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            توفير المراجع
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            أبحاث النشر والترقية
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            نقد الرسائل العلمية
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            توثيق المراجع
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            إعداد الإطار النظري
+                        </a>
+
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            تصميم أدوات الدراسة
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            التدقيق اللغوي
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            إعداد ملخص الدراسة
+                        </a>
+
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            كتابة خاتمة البحث
+                        </a>
+                        <a href="application.html" class="service">
+                            <i class="fa-solid fa-check"></i>
+                            إعداد العروض التقديمية
+                        </a>
+                    </div>
+                    <div class="add-email ">
+                        <p class="small-title">القائمة البريدية</p>
+                        <span>أضف بريدك الالكترونى ليصلك كل جديد</span>
+                        <form class="flex">
+                            <input type="email" placeholder="yourEmail@gmail.com">
+                            <button type="submit">إضافة</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="twitter">
+                    <a class="twitter-timeline" data-height="460" href="https://twitter.com/albayanres">Tweets by</a>
+                </div>
+            </section>
+            <section class="powered">
+                <span>كل الحقوق محفوظة &#169;</span>
+                طور بواسطة مؤسسة البيان
+            </section>
+        </footer>
+
+
+
+        <!-- modals required in all pages -->
+        <div class="shadow fixed-padding">
+            <button class="close">
+                <i class="fas fa-window-close"></i>
+            </button>
+        </div>
+
+        <script src="https://kit.fontawesome.com/4f23391fba.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+
+        <script src="js/index.js"></script>
+
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </body>
+
+</html>
